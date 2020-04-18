@@ -1556,4 +1556,8 @@ footer {
     margin-left: 5px;
 }
 
+.example{
+    outline: none;
+}
+
 /* =================== -MODAL-STYLE-END- ==================== */
