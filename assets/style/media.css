@@ -1124,9 +1124,7 @@
     }
 
     .products-parameters__img {
-        width: 120px;
-        height: 185px;
-        position: relative;
+        display: none;
     }
 
     .advantages-list ul li {
