@@ -1591,4 +1591,8 @@ footer {
     cursor: pointer;
 }
 
+.example{
+    outline: none;
+}
+
 /* =================== -MODAL-STYLE-END- ==================== */
