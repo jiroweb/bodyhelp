@@ -22,6 +22,7 @@
    <link rel="stylesheet" href="assets/style/icon.css" />
    <link rel="stylesheet" href="assets/style/flexbox.css" />
    <link rel="stylesheet" href="assets/style/normalize.css" />
+   <link rel="stylesheet" href="assets/style/animation.css" />
    <link rel="stylesheet" href="assets/style/style.css" />
    <link rel="stylesheet" href="assets/style/media.css" />
    <!-- ======================= -LINKS-MY-END- ======================= -->
@@ -29,7 +30,7 @@
 
 <body>
    <!-- ====================== -HTML5-HEADER-START- ====================== -->
-   <header>
+   <header class="wow fadeInDown" data-wow-duration="1s">
       <div class="header-block">
          <div class="header-information__block d_flex a_items_center">
             <div class="container">
@@ -77,7 +78,7 @@
                         </div>
                         <div class="for-mobile-bg"></div>
                         <div class="menu-cnt mobile-bg-1">
-                           <div id="mySidenav" class="sidenav">
+                           <div class="sidenav">
                               <div class="header-menu__main d_flex j_content_between a_items_center">
                                  <nav class="header-menu menu">
                                     <ul class="header-menu__list d_flex a_items_center j_content_between">
@@ -124,7 +125,7 @@
                            <button class="btn modal-popup window-click" data-popupopen="1">Заказать</button>
                         </div>
                      </div>
-                     <div class="products-img tonometr-img d_flex j_content_center a_items_center">
+                     <div class="products-img d_flex j_content_center a_items_center">
                         <img src="assets/img/slide/tonometr.png" alt="slide-img" />
                      </div>
                   </div>
@@ -141,7 +142,7 @@
                            <button class="btn modal-popup window-click" data-popupopen="1">Заказать</button>
                         </div>
                      </div>
-                     <div class="products-img package-img d_flex a_items_center j_content_between">
+                     <div class="products-img d_flex a_items_center j_content_between">
                         <img src="assets/img/slide/package.png" alt="slide-img" />
                      </div>
                   </div>
@@ -164,7 +165,7 @@
                            <button class="btn modal-popup window-click" data-popupopen="1">Заказать</button>
                         </div>
                      </div>
-                     <div class="products-img documents-img d_flex j_content_center a_items_center">
+                     <div class="products-img d_flex j_content_center a_items_center">
                         <img src="assets/img/slide/documents.png" alt="slide-img" />
                      </div>
                   </div>
@@ -188,7 +189,7 @@
    <!-- ===================== -HTML5-MAIN-SLIDER-END- ==================== -->
 
    <!-- ======================= -HTML5-GUARANTEE-START- ======================= -->
-   <section>
+   <section class="wow fadeInUp" data-wow-duration="1s">
       <div class="container">
          <div class="guarantee-block">
             <div class="guarantee d_flex j_content_center f_wrap">
@@ -219,10 +220,11 @@
                </div>
             </div>
          </div>
+      </div>
    </section>
    <!-- ======================= -HTML5-GUARANTEE-END- ======================= -->
    <!-- ================ -HTML5-ATTENTION-SECTION-START- ================ -->
-   <section>
+   <section class="wow fadeInUp" data-wow-duration="1s">
       <div class="container">
          <div class="attention">
             <div class="attention-background d_flex">
@@ -248,27 +250,28 @@
             <div class="section-title">
                <h3>Преимущества нашего термометра</h3>
             </div>
-            <div class="advantages-list d_flex a_items_center j_content_between">
-               <div class="products-parameters__left d_flex j_content_between f_direction_column">
-                  <p>Погрешность 0,1-0,3 °C <span></span></p>
-                  <p>Предназначен для измерения <br />температуры тела человека <span></span></p>
-                  <p>Эргономичный дизайн<span></span></p>
-               </div>
+
+            <div class="advantages-list">
+               <ul class="d_flex f_direction_column a_items_end">
+                  <li>Погрешность 0,1-0,3 °C
+                     <span class="wow lineTo" data-wow-duration="1s"><i></i></span>
+                  </li>
+                  <li>Подсветка дисплея
+                     <span class="wow lineTo" data-wow-duration="2s"><i></i></span>
+                  </li>
+                  <li>Предназначен для измерения <br>температуры тела человека
+                     <span class="wow lineTo" data-wow-duration="3s"><i></i></span>
+                  </li>
+                  <li>Звуковая индикация
+                     <span class="wow lineTo" data-wow-duration="4s"><i></i></span>
+                  </li>
+                  <li>Эргономичный дизайн
+                     <span class="wow lineTo" data-wow-duration="5s"><i></i></span>
+                  </li>
+               </ul>
                <div class="products-parameters__img">
-                  <img src="assets/img/sections/single-termometr.png" alt="products-parameters" />
-               </div>
-               <div class="products-parameters__right">
-                  <p>Подсветка дисплея<span></span></p>
-                  <p>Звуковая индикация<span></span></p>
-               </div>
-               <div class="media-advantages">
-                  <ul>
-                     <li>Погрешность 0,1-0,3 °C</li>
-                     <li>Предназначен для измерения<br> температуры тела человека</li>
-                     <li>Эргономичный дизайн</li>
-                     <li>Подсветка дисплея</li>
-                     <li>Звуковая индикация</li>
-                  </ul>
+                  <img src="assets/img/sections/single-termometr.png" alt="products-parameters" class="wow bounceIn"
+                     data-wow-duration="1s" />
                </div>
             </div>
             <p>Именно поэтому мы продаем эту модель</p>
@@ -278,7 +281,7 @@
    <!-- ===================== -HTML5-ADVANTAGES-END- ==================== -->
 
    <!-- ==================== -HTML5-CHARACTERS-START- ================== -->
-   <section>
+   <section class="wow fadeInUp" data-wow-duration="1s">
       <div class="container">
          <div class="characters-block">
             <div class="characters-title">
@@ -380,7 +383,7 @@
    </section>
    <!-- ==================== -HTML5-CHARACTERS-END- ==================== -->
    <!-- ===================== -HTML5-PRICE-START- ====================== -->
-   <section class="price-section">
+   <section class="price-section wow fadeInUp" data-wow-duration="1s">
       <div class="container">
          <div class="price-delivery">
             <div class="section-title">
@@ -479,7 +482,7 @@
    </section>
    <!-- ====================== -HTML5-PRICE-END- ======================= -->
    <!-- =================== -HTML5-WHY-TO-ORDER-START- ================= -->
-   <section>
+   <section class="wow fadeInUp" data-wow-duration="1s">
       <div class="container">
          <div class="order-block">
             <div class="section-title">
@@ -522,7 +525,7 @@
    </section>
    <!-- ===================== -HTML5-WHY-TO-ORDER-END- ===================== -->
    <!-- ===================== -HTML5-JOURNAL-BOX-START- ==================== -->
-   <section>
+   <section class="wow fadeInUp" data-wow-duration="1s">
       <div class="container">
          <div class="why-to__order">
             <div class="section-title">
@@ -531,57 +534,99 @@
             <div class="journal-box">
                <div class="journal-box__block d_flex j_content_between f_wrap">
                   <div class="journal-box__block--item">
-                     <div class="box-images">
-                     </div>
-                  </div>
-                  <div class="journal-box__block--item">
-                     <div class="box-images">
-                     </div>
-                  </div>
-                  <div class="journal-box__block--item">
                      <div class="box-images question-mark__details">
+                        <a href="#"><img src="assets/img/sections/grey.jpg" alt="journal"></a>
                         <div class="question-info">
                            <p>Текст пояснение о количестве отгрузки и условиях отгрузки, дата</p>
                         </div>
                      </div>
                   </div>
                   <div class="journal-box__block--item">
-                     <div class="box-images">
-                     </div>
-                  </div>
-                  <div class="journal-box__block--item">
-                     <div class="box-images">
-                     </div>
-                  </div>
-                  <div class="journal-box__block--item">
                      <div class="box-images question-mark__details">
+                        <a href="#"><img src="assets/img/sections/grey.jpg" alt="journal"></a>
                         <div class="question-info">
                            <p>Текст пояснение о количестве отгрузки и условиях отгрузки, дата</p>
                         </div>
                      </div>
                   </div>
                   <div class="journal-box__block--item">
-                     <div class="box-images">
+                     <div class="box-images question-mark__details">
+                        <a href="#"><img src="assets/img/sections/grey.jpg" alt="journal"></a>
+                        <div class="question-info">
+                           <p>Текст пояснение о количестве отгрузки и условиях отгрузки, дата</p>
+                        </div>
                      </div>
                   </div>
                   <div class="journal-box__block--item">
-                     <div class="box-images">
+                     <div class="box-images question-mark__details">
+                        <a href="#"><img src="assets/img/sections/grey.jpg" alt="journal"></a>
+                        <div class="question-info">
+                           <p>Текст пояснение о количестве отгрузки и условиях отгрузки, дата</p>
+                        </div>
                      </div>
                   </div>
                   <div class="journal-box__block--item">
-                     <div class="box-images">
+                     <div class="box-images question-mark__details">
+                        <a href="#"><img src="assets/img/sections/grey.jpg" alt="journal"></a>
+                        <div class="question-info">
+                           <p>Текст пояснение о количестве отгрузки и условиях отгрузки, дата</p>
+                        </div>
                      </div>
                   </div>
                   <div class="journal-box__block--item">
-                     <div class="box-images">
+                     <div class="box-images question-mark__details">
+                        <a href="#"><img src="assets/img/sections/grey.jpg" alt="journal"></a>
+                        <div class="question-info">
+                           <p>Текст пояснение о количестве отгрузки и условиях отгрузки, дата</p>
+                        </div>
                      </div>
                   </div>
                   <div class="journal-box__block--item">
-                     <div class="box-images">
+                     <div class="box-images question-mark__details">
+                        <a href="#"><img src="assets/img/sections/grey.jpg" alt="journal"></a>
+                        <div class="question-info">
+                           <p>Текст пояснение о количестве отгрузки и условиях отгрузки, дата</p>
+                        </div>
                      </div>
                   </div>
                   <div class="journal-box__block--item">
-                     <div class="box-images">
+                     <div class="box-images question-mark__details">
+                        <a href="#"><img src="assets/img/sections/grey.jpg" alt="journal"></a>
+                        <div class="question-info">
+                           <p>Текст пояснение о количестве отгрузки и условиях отгрузки, дата</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="journal-box__block--item">
+                     <div class="box-images question-mark__details">
+                        <a href="#"><img src="assets/img/sections/grey.jpg" alt="journal"></a>
+                        <div class="question-info">
+                           <p>Текст пояснение о количестве отгрузки и условиях отгрузки, дата</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="journal-box__block--item">
+                     <div class="box-images question-mark__details">
+                        <a href="#"><img src="assets/img/sections/grey.jpg" alt="journal"></a>
+                        <div class="question-info">
+                           <p>Текст пояснение о количестве отгрузки и условиях отгрузки, дата</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="journal-box__block--item">
+                     <div class="box-images question-mark__details">
+                        <a href="#"><img src="assets/img/sections/grey.jpg" alt="journal"></a>
+                        <div class="question-info">
+                           <p>Текст пояснение о количестве отгрузки и условиях отгрузки, дата</p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="journal-box__block--item">
+                     <div class="box-images question-mark__details">
+                        <a href="#"><img src="assets/img/sections/grey.jpg" alt="journal"></a>
+                        <div class="question-info">
+                           <p>Текст пояснение о количестве отгрузки и условиях отгрузки, дата</p>
+                        </div>
                      </div>
                   </div>
                </div>
@@ -592,7 +637,7 @@
    <!-- ==================== -HTML5-JOURNAL-BOX-END- =================== -->
 
    <!-- ==================== -HTML5-SHIPMENT-START- ==================== -->
-   <section>
+   <section class="wow fadeInUp" data-wow-duration="1s">
       <div class="container">
          <div class="shipment-block d_flex j_content_between">
             <div class="shipment-details d_flex j_content_between f_direction_column">
@@ -650,7 +695,7 @@
    </section>
    <!-- ===================== -HTML5-SHIPMENT-END- ===================== -->
    <!-- ================= -HTML5-TERMOMETR-VIDEO-START- ================ -->
-   <section>
+   <section class="wow fadeInUp" data-wow-duration="1s">
       <div class="container">
          <div class="termometr-video__block">
             <div class="section-title">
@@ -676,7 +721,7 @@
    </section>
    <!-- ================== -HTML5-TERMOMETR-VIDEO-END- ================= -->
    <!-- ================= -HTML5-QUESTIONS-VIDEO-START- ================ -->
-   <section>
+   <section class="wow fadeInUp" data-wow-duration="1s">
       <div class="container">
          <div class="questions-block">
             <div class="section-title">
@@ -696,18 +741,18 @@
                         Для отправки посылки в регионы, в основном используем ТК "Деловые линии", но также можем
                         отправить ваши термометры любой другой транспортной компанией.
                      </p>
-                     <p>
-                        <i>Вес 1 термометра в коробке составляет 170 гр.</i>
-                        <i> Для примера, по маршруту Москва - Владивосток:
-                        </i>
-                        <i>5 термометров, общий вес - менее 1 кг.
-                        </i>
-                        <i>Срок доставки 2 - 3 дня
-                        </i>
-                        <i>Ориентировочная стоимость доставки - 800 руб.
-                        </i>
-                        <i>Доставка производится за счет покупателя.</i>
-                     </p>
+                     <h3>
+                        <p>Вес 1 термометра в коробке составляет 170 гр.</p>
+                        <p> Для примера, по маршруту Москва - Владивосток:
+                           <pi>
+                              <p>5 термометров, общий вес - менее 1 кг.
+                              </p>
+                              <p>Срок доставки 2 - 3 дня
+                              </p>
+                              <p>Ориентировочная стоимость доставки - 800 руб.
+                              </p>
+                              <p>Доставка производится за счет покупателя.</p>
+                     </h3>
                      <p>
                         По Москве доставка курьерскими службами, или же вы можете забрать товар самовывозом у нас на
                         складе, по адресу: ул. Годовикова 9с4, технопарк "Калибр".
@@ -727,18 +772,18 @@
                         Для отправки посылки в регионы, в основном используем ТК "Деловые линии", но также можем
                         отправить ваши термометры любой другой транспортной компанией.
                      </p>
-                     <p>
-                        <i>Вес 1 термометра в коробке составляет 170 гр.</i>
-                        <i> Для примера, по маршруту Москва - Владивосток:
-                        </i>
-                        <i>5 термометров, общий вес - менее 1 кг.
-                        </i>
-                        <i>Срок доставки 2 - 3 дня
-                        </i>
-                        <i>Ориентировочная стоимость доставки - 800 руб.
-                        </i>
-                        <i>Доставка производится за счет покупателя.</i>
-                     </p>
+                     <h3>
+                        <p>Вес 1 термометра в коробке составляет 170 гр.</p>
+                        <p> Для примера, по маршруту Москва - Владивосток:
+                           <pi>
+                              <p>5 термометров, общий вес - менее 1 кг.
+                              </p>
+                              <p>Срок доставки 2 - 3 дня
+                              </p>
+                              <p>Ориентировочная стоимость доставки - 800 руб.
+                              </p>
+                              <p>Доставка производится за счет покупателя.</p>
+                     </h3>
                      <p>
                         По Москве доставка курьерскими службами, или же вы можете забрать товар самовывозом у нас на
                         складе, по адресу: ул. Годовикова 9с4, технопарк "Калибр".
@@ -757,18 +802,18 @@
                         Для отправки посылки в регионы, в основном используем ТК "Деловые линии", но также можем
                         отправить ваши термометры любой другой транспортной компанией.
                      </p>
-                     <p>
-                        <i>Вес 1 термометра в коробке составляет 170 гр.</i>
-                        <i> Для примера, по маршруту Москва - Владивосток:
-                        </i>
-                        <i>5 термометров, общий вес - менее 1 кг.
-                        </i>
-                        <i>Срок доставки 2 - 3 дня
-                        </i>
-                        <i>Ориентировочная стоимость доставки - 800 руб.
-                        </i>
-                        <i>Доставка производится за счет покупателя.</i>
-                     </p>
+                     <h3>
+                        <p>Вес 1 термометра в коробке составляет 170 гр.</p>
+                        <p> Для примера, по маршруту Москва - Владивосток:
+                           <pi>
+                              <p>5 термометров, общий вес - менее 1 кг.
+                              </p>
+                              <p>Срок доставки 2 - 3 дня
+                              </p>
+                              <p>Ориентировочная стоимость доставки - 800 руб.
+                              </p>
+                              <p>Доставка производится за счет покупателя.</p>
+                     </h3>
                      <p>
                         По Москве доставка курьерскими службами, или же вы можете забрать товар самовывозом у нас на
                         складе, по адресу: ул. Годовикова 9с4, технопарк "Калибр".
@@ -788,18 +833,18 @@
                         Для отправки посылки в регионы, в основном используем ТК "Деловые линии", но также можем
                         отправить ваши термометры любой другой транспортной компанией.
                      </p>
-                     <p>
-                        <i>Вес 1 термометра в коробке составляет 170 гр.</i>
-                        <i> Для примера, по маршруту Москва - Владивосток:
-                        </i>
-                        <i>5 термометров, общий вес - менее 1 кг.
-                        </i>
-                        <i>Срок доставки 2 - 3 дня
-                        </i>
-                        <i>Ориентировочная стоимость доставки - 800 руб.
-                        </i>
-                        <i>Доставка производится за счет покупателя.</i>
-                     </p>
+                     <h3>
+                        <p>Вес 1 термометра в коробке составляет 170 гр.</p>
+                        <p> Для примера, по маршруту Москва - Владивосток:
+                           <pi>
+                              <p>5 термометров, общий вес - менее 1 кг.
+                              </p>
+                              <p>Срок доставки 2 - 3 дня
+                              </p>
+                              <p>Ориентировочная стоимость доставки - 800 руб.
+                              </p>
+                              <p>Доставка производится за счет покупателя.</p>
+                     </h3>
                      <p>
                         По Москве доставка курьерскими службами, или же вы можете забрать товар самовывозом у нас на
                         складе, по адресу: ул. Годовикова 9с4, технопарк "Калибр".
@@ -816,18 +861,18 @@
                         Для отправки посылки в регионы, в основном используем ТК "Деловые линии", но также можем
                         отправить ваши термометры любой другой транспортной компанией.
                      </p>
-                     <p>
-                        <i>Вес 1 термометра в коробке составляет 170 гр.</i>
-                        <i> Для примера, по маршруту Москва - Владивосток:
-                        </i>
-                        <i>5 термометров, общий вес - менее 1 кг.
-                        </i>
-                        <i>Срок доставки 2 - 3 дня
-                        </i>
-                        <i>Ориентировочная стоимость доставки - 800 руб.
-                        </i>
-                        <i>Доставка производится за счет покупателя.</i>
-                     </p>
+                     <h3>
+                        <p>Вес 1 термометра в коробке составляет 170 гр.</p>
+                        <p> Для примера, по маршруту Москва - Владивосток:
+                           <pi>
+                              <p>5 термометров, общий вес - менее 1 кг.
+                              </p>
+                              <p>Срок доставки 2 - 3 дня
+                              </p>
+                              <p>Ориентировочная стоимость доставки - 800 руб.
+                              </p>
+                              <p>Доставка производится за счет покупателя.</p>
+                     </h3>
                      <p>
                         По Москве доставка курьерскими службами, или же вы можете забрать товар самовывозом у нас на
                         складе, по адресу: ул. Годовикова 9с4, технопарк "Калибр".
@@ -844,18 +889,18 @@
                         Для отправки посылки в регионы, в основном используем ТК "Деловые линии", но также можем
                         отправить ваши термометры любой другой транспортной компанией.
                      </p>
-                     <p>
-                        <i>Вес 1 термометра в коробке составляет 170 гр.</i>
-                        <i> Для примера, по маршруту Москва - Владивосток:
-                        </i>
-                        <i>5 термометров, общий вес - менее 1 кг.
-                        </i>
-                        <i>Срок доставки 2 - 3 дня
-                        </i>
-                        <i>Ориентировочная стоимость доставки - 800 руб.
-                        </i>
-                        <i>Доставка производится за счет покупателя.</i>
-                     </p>
+                     <h3>
+                        <p>Вес 1 термометра в коробке составляет 170 гр.</p>
+                        <p> Для примера, по маршруту Москва - Владивосток:
+                           <pi>
+                              <p>5 термометров, общий вес - менее 1 кг.
+                              </p>
+                              <p>Срок доставки 2 - 3 дня
+                              </p>
+                              <p>Ориентировочная стоимость доставки - 800 руб.
+                              </p>
+                              <p>Доставка производится за счет покупателя.</p>
+                     </h3>
                      <p>
                         По Москве доставка курьерскими службами, или же вы можете забрать товар самовывозом у нас на
                         складе, по адресу: ул. Годовикова 9с4, технопарк "Калибр".
@@ -895,29 +940,19 @@
                         <div class="requisites-info">
                            <h6>Реквизиты</h6>
                            <div class="bank-info">
-                              <p>
-                                 ИНН/КПП 7707435947/ 770701001
-                              </p>
-                              <p>
-                                 ОГРН 1197746696509
-                              </p>
-                              <p>
-                                 Р/с 40702810001500057975
-                              </p>
-                              <p>
-                                 Кор/с 30101810845250000999
-                              </p>
-                              <p>
-                                 БИК банка 044525999
-                              </p>
-                              <p>
-                                 Банк ТОЧКА ПАО БАНКА "ФК ОТКРЫТИЕ", Москва оф. 3.11
-                              </p>
+                              <ul>
+                                 <li>ИНН/КПП 7707435947/ 770701001</li>
+                                 <li>ОГРН 1197746696509</li>
+                                 <li>Р/с 40702810001500057975</li>
+                                 <li>Кор/с 30101810845250000999</li>
+                                 <li>БИК банка 044525999</li>
+                                 <li>Банк ТОЧКА ПАО БАНКА "ФК ОТКРЫТИЕ", Москва оф. 3.11</li>
+                              </ul>
                            </div>
                         </div>
                         <div class="instagram-link">
-                           <a href="">
-                              <i cSlass="icon icon-instagram"></i>
+                           <a href="#" class="d_flex j_content_center a_items_center">
+                              <i class="icon icon-instagram"></i>
                            </a>
                         </div>
                      </div>
@@ -945,7 +980,9 @@
    <div class="modal" data-modalpopup="1">
       <div class="modal-container window-click">
          <div class="modal-content">
-            <span class="modal-close"></span>
+            <span class="modal-close">
+               <i class="icon icon-close_modal"></i>
+            </span>
             <h2>Сделать заказ</h2>
             <form action="">
                <div class="order-input__part">
@@ -955,24 +992,21 @@
                      <span class="input-area__line"></span>
                   </div>
                   <div class="input-area">
-                     <input type="text" placeholder="&nbsp;">
+                     <input type="email" placeholder="&nbsp;" required>
                      <span class="input-area__placeholder">E-mail</span>
                      <span class="input-area__line"></span>
                   </div>
                   <div class="input-area">
-                     <input type="number" placeholder="&nbsp;">
+                     <input type="number" placeholder="&nbsp;" required>
                      <span class="input-area__placeholder">Телефон</span>
                      <span class="input-area__line"></span>
                   </div>
                   <div class="number-part">
                      <p>Укажите количество партии</p>
                      <div class="number-block d_flex a_items_center">
-                        <div class="down-number number-change d_flex a_items_center">
+                        <div class="number-change d_flex a_items_center">
                            <i class="icon icon-minus"></i>
-                           <input type="number" placeholder="100">
-                        </div>
-                        <div class="up-number number-change d_flex a_items_center">
-                           <input type="number" placeholder="500">
+                           <input type="number" value="1">
                            <i class="icon icon-plus"></i>
                         </div>
                      </div>
@@ -998,6 +1032,7 @@
    <!-- ===================== -SCRIPT-PLUGIN-START- ===================== -->
    <script src="assets/js/jquery-3.2.1.min.js"></script>
    <script src="assets/slick/slick.min.js"></script>
+   <script src="assets/js/animation.min.js"></script>
    <!-- ====================== -SCRIPT-PLUGIN-END- ====================== -->
    <!-- ======================= -SCRIPT-MY-START- ======================= -->
    <script src="assets/js/script.js"></script>

@@ -28,6 +28,9 @@
 .icon{
   display: inline-block;
 }
+.icon-close_modal:before {
+  content: "\e90d";
+}
 .icon-bank:before {
   content: "\e90c";
 }
