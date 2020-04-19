@@ -1558,7 +1558,7 @@ footer {
     content: "";
     position: absolute;
     border: 1px solid #F0F0F0;
-    width: 14%;
+    width: 62px;
     bottom: -10px;
     left: 24px;
 }
@@ -1591,8 +1591,6 @@ footer {
     cursor: pointer;
 }
 
-.example{
-    outline: none;
-}
+
 
 /* =================== -MODAL-STYLE-END- ==================== */
