@@ -76,7 +76,7 @@
 /*=======================-HEADER-STYLE-START-=======================*/
 
 .header-information__block {
-    padding: 18px 0 20px;
+    padding: 10px 0;
     border-bottom: 1px solid rgba(205, 205, 205, 0.3);
 }
 
@@ -112,7 +112,6 @@
     width: 48%;
 }
 
-
 .mail-info .icon-Frame {
     font-size: 14px;
     color: var(--color-global);
@@ -145,7 +144,7 @@
 }
 
 .header-menu__logo {
-    padding: 26px 0;
+    padding: 15px 0;
 }
 
 .header-logo {
@@ -275,7 +274,7 @@
 /*=====================-MAIN-SLIDER-STYLE-START-====================*/
 .main-slider__section {
     background-color: #EFF7F9;
-    padding: 70px 0 99px;
+    padding: 10px 0 35px;
 }
 
 .products-info__main {
@@ -295,10 +294,10 @@
     max-width: 550px;
     width: 100%;
     font-weight: bold;
-    font-size: 48px;
-    line-height: 120%;
+    font-size: 38px;
+    line-height: 1.1;
     color: #333333;
-    margin-bottom: 56px;
+    margin-bottom: 30px;
 }
 
 .products-info__main h2>span {
@@ -309,7 +308,8 @@
     font-weight: 500;
     font-size: 24px;
     color: #333333;
-    margin-bottom: 33px;
+    margin-bottom: 10px;
+
 }
 
 .products-info__main p {
@@ -339,8 +339,8 @@
 
 .products-img {
     position: relative;
-    width: 591px;
-    height: 591px;
+    width: 440px;
+    height: 440px;
 }
 
 .products-img::before {
@@ -421,7 +421,7 @@
 /*======================-MAIN-SLIDER-STYLE-END-=====================*/
 /*=======================-GUARANTEE-STYLE-START-=======================*/
 .guarantee-block {
-    margin-top: 105px;
+    margin-top: 80px;
 }
 
 .guarantee {
@@ -466,7 +466,7 @@
 /*=======================-GUARANTEE-STYLE-END-=======================*/
 /*=====================-ATTENTION-STYLE-START-=======================*/
 .attention {
-    margin-top: 167px;
+    margin-top: 100px;
 }
 
 .attention-icon {
@@ -514,18 +514,18 @@
 
 /*======================-ADVANTAGES-STYLE-START-====================*/
 .advantages-block {
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .section-title {
     font-weight: 600;
-    font-size: 48px;
+    font-size: 44px;
     color: #333333;
 }
 
 .advantages-list {
     width: 100%;
-    margin-top: 133px;
+    margin-top: 100px;
     background-color: #EFF7F9;
     padding: 50px 112px 59px 114px;
     position: relative;
@@ -586,17 +586,17 @@
 
 .advantages-list ul li:nth-child(2) {
     width: 34%;
-    margin-bottom: 97px;
+    margin-bottom: 50px;
 }
 
 .advantages-list ul li:nth-child(3) {
     width: 50%;
-    margin-bottom: 62px;
+    margin-bottom: 42px;
 }
 
 .advantages-list ul li:nth-child(4) {
     width: 49%;
-    margin-bottom: 46px;
+    margin-bottom: 36px;
 }
 
 .advantages-list ul li:nth-child(5) {
@@ -606,8 +606,8 @@
 .products-parameters__img {
     position: absolute;
     width: 377px;
-    height: 577px;
-    top: -19%;
+    height: 477px;
+    top: -50px;
     left: 39%;
 }
 
@@ -634,7 +634,7 @@
 /*======================-CHARACTERS-STYLE-START-====================*/
 
 .characters-block {
-    margin: 197px 0 220px;
+    margin: 90px 0;
 }
 
 .characters-title h4 {
@@ -729,12 +729,11 @@
 /*=========================-PRICE-STYLE-START-======================*/
 .price-section {
     background-color: #FCFCFC;
-    padding: 95px 0 197px;
-
+    padding: 50px 0 60px;
 }
 
 .delivery-info {
-    margin: 29px 0 59px;
+    margin: 20px 0;
     max-width: 580px;
     width: 100%;
 }
@@ -779,7 +778,6 @@
 
 .cash-payment .cost-delivery__title {
     background-color: var(--color-orange);
-
 }
 
 .cost-info__block {
@@ -828,7 +826,7 @@
 }
 
 .delivery-deadline__info {
-    margin-top: 105px;
+    margin-top: 60px;
 }
 
 .delivery-documents,
@@ -838,8 +836,8 @@
 
 .delivery-documents p {
     font-weight: 500;
-    font-size: 26px;
-    line-height: 150%;
+    font-size: 24px;
+    line-height: 1.4;
     color: #333333;
 }
 
@@ -862,7 +860,7 @@
 /*=========================-PRICE-STYLE-END-========================*/
 /*=======================-WHY-TO-ORDER-STYLE-START-=======================*/
 .order-block {
-    margin-top: 190px;
+    margin-top: 60px;
 }
 
 .order-block .guarantee-block {
@@ -876,7 +874,7 @@
 /*======================-WHY-TO-ORDER-STYLE-END-=====================*/
 /*=================-JOURNAL-BOX-SECTION-STYLE-START-=================*/
 .why-to__order {
-    margin: 178px 0 0;
+    margin: 90px 0 0;
 }
 
 .journal-box__block {
@@ -907,7 +905,7 @@
 /*=================-JOURNAL-BOX-SECTION-STYLE-END-==================*/
 /*=======================-SHIPENT-STYLE-START-======================*/
 .shipment-block {
-    margin-top: 160px;
+    margin-top: 90px;
 }
 
 .shipment-details {
@@ -942,12 +940,12 @@
 
 .shipment-main__slider {
     width: 47.5%;
-    min-height: 700px;
+    min-height: 670px;
 }
 
 .shipment-photo__block {
     width: 100%;
-    height: 100%;
+    height: 570px;
 }
 
 .shipment-photo__block img {
@@ -1015,12 +1013,12 @@
 
 /*==================-TERMOMETR-VIDEO-STYLE-START-===================*/
 .termometr-video__block {
-    margin-top: 135px;
+    margin-top: 90px;
 }
 
 .single-video__block {
     width: 100%;
-    height: 630px;
+    height: 500px;
     transition: 0.4s;
     position: relative;
     overflow: hidden;
@@ -1072,28 +1070,27 @@
 
 /*==================-QUESTIONS-STYLE-START-===================*/
 .questions-block {
-    margin-top: 135px;
+    margin-top: 90px;
 }
 
 .questions-block .section-title {
-    margin-bottom: 103px;
+    margin-bottom: 40px;
 }
 
 .questions-list {
     border-bottom: 1px solid #CDCDCD;
-    margin-bottom: 35px;
-
+    margin-bottom: 25px;
 }
 
 .questions-title {
     cursor: pointer;
-    padding-bottom: 35px;
+    padding-bottom: 25px;
     position: relative;
 }
 
 .questions-title p {
     font-weight: 500;
-    font-size: 22px;
+    font-size: 20px;
     color: #333333;
     opacity: 0.8;
 }
@@ -1102,7 +1099,6 @@
     display: block;
     width: 40px;
     margin-right: 5px;
-
 }
 
 .questions-title span::before {
@@ -1110,11 +1106,10 @@
     position: absolute;
     border: solid #333333;
     border-width: 1px 0 0 0;
-    width: 40px;
+    width: 35px;
     transform: rotate(90deg);
     right: 0;
     transition: var(--transition-all);
-
 }
 
 .questions-title span::after {
@@ -1122,7 +1117,7 @@
     position: absolute;
     border: solid #333333;
     border-width: 1px 0 0 0;
-    width: 40px;
+    width: 35px;
     right: 0;
     transition: var(--transition-all);
 }
@@ -1171,19 +1166,17 @@
     font-size: 16px;
     line-height: 150%;
     color: #333333;
-
 }
-
 
 /*===================-QUESTIONS-STYLE-END-====================*/
 
 /* ================== -FOOTER-STYLE-START- =================== */
 footer {
-    margin-top: 200px;
+    margin-top: 90px;
 }
 
 .footer-info__block {
-    height: 680px;
+    height: 580px;
     background-color: #37383C;
 }
 
@@ -1204,17 +1197,17 @@ footer {
 
 .footer-contact__block {
     width: 60%;
-    padding: 58px 40px 0 0;
+    padding: 40px 30px 0 0;
     pointer-events: auto;
 }
 
 .footer-contact__block .section-title {
     color: #FFFFFF;
-    margin-bottom: 34px;
+    margin-bottom: 20px;
 }
 
 .footer-info {
-    margin-bottom: 66px;
+    margin-bottom: 40px;
 }
 
 .footer-info__left,
