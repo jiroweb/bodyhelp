@@ -2,7 +2,7 @@
 
     /*=====================-CHARACTERS-MEDIA-max-width-1299.98-START-=====================*/
     .characters-block {
-        margin: 150px 0 150px;
+        margin: 80px 0;
     }
 
     .media-hover__change .question-info {
@@ -36,14 +36,9 @@
 
     /*=====================-MAIN-SLIDER-MEDIA-max-width-1199.98-START-=====================*/
 
-    .main-slider__section {
-        padding: 50px 0 79px;
-    }
-
     .products-info__main h2 {
         font-size: 42px;
         line-height: 100%;
-        margin-bottom: 40px;
     }
 
     .products-info__main h6 {
@@ -63,9 +58,6 @@
 
     /*=====================-MAIN-SLIDER-MEDIA-max-width-1199.98-END-====================*/
     /*=====================-GUARANTEE-MEDIA-max-width-1199.98-START-=====================*/
-    .guarantee-block {
-        margin-top: 85px;
-    }
 
     .guarantee {
         margin: 0 -15px;
@@ -77,31 +69,19 @@
 
     /*======================-GUARANTEE-MEDIA-max-width-1199.98-END-======================*/
     /*=====================-ATTENTION-MEDIA-max-width-1199.98-START-=====================*/
-    .attention {
-        margin-top: 130px;
-    }
 
     /*======================-ATTENTION-MEDIA-max-width-1199.98-END-======================*/
     /*====================-ADVANTAGES-MEDIA-max-width-1199.98-START-=====================*/
-    .advantages-block {
-        margin-top: 150px;
-    }
 
     .section-title {
         font-size: 42px;
     }
 
-    .advantages-list {
-        padding: 40px 22px 59px 100px;
-
-    }
 
     /*======================-ADVANTAGES-MEDIA-max-width-1199.98-END-======================*/
 
     /*=====================-PRICE-MEDIA-max-width-1199.98-START-=====================*/
-    .price-section {
-        padding: 70px 0 150px;
-    }
+
 
     .delivery-info {
         margin: 29px 0 50px;
@@ -116,7 +96,7 @@
     }
 
     .delivery-deadline__info {
-        margin-top: 80px;
+        margin-top: 50px;
     }
 
     .delivery-documents p {
@@ -125,14 +105,10 @@
 
     /*======================-PRICE-MEDIA-max-width-1199.98-END-======================*/
     /*===================-WHY-TO-ORDER-MEDIA-max-width-1199.98-START-===================*/
-    .order-block {
-        margin-top: 150px;
-    }
-
     /*===================-WHY-TO-ORDER-MEDIA-max-width-1199.98-END-====================*/
     /*=====================-JOURNAL-MEDIA-max-width-1199.98-START-=====================*/
     .why-to__order {
-        margin: 150px 0 0;
+        margin: 80px 0 0;
     }
 
     .journal-box__block {
@@ -145,32 +121,20 @@
 
     /*======================-JOURNAL-MEDIA-max-width-1199.98-END-======================*/
     /*=====================-SHIPMENT-MEDIA-max-width-1199.98-START-=====================*/
-    .shipment-block {
-        margin-top: 140px;
-    }
-
     .shipment-main__slider {
         min-height: 550px;
     }
 
     /*======================-SHIPMENT-MEDIA-max-width-1199.98-END-======================*/
     /*=====================-TERMOMETR-MEDIA-max-width-1199.98-START-=====================*/
-    .termometr-video__block {
-        margin-top: 120px;
-    }
-
     /*======================-TERMOMETR-MEDIA-max-width-1199.98-END-======================*/
     /*=====================-QUESTIONS-MEDIA-max-width-1199.98-START-=====================*/
-    .questions-block {
-        margin-top: 120px;
-    }
-
-    .questions-block .section-title {
-        margin-bottom: 80px;
+    .questions-list {
+        margin-bottom: 20px;
     }
 
     .questions-title {
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     }
 
     .questions-answers {
@@ -180,7 +144,7 @@
     /*======================-QUESTIONS-MEDIA-max-width-1199.98-END-======================*/
     /*=====================-FOOTER-MEDIA-max-width-1199.98-START-=====================*/
     footer {
-        margin-top: 150px;
+        margin-top: 80px;
     }
 
     .footer-contact__block {
@@ -188,9 +152,6 @@
     }
 
     /*======================-FOOTER-MEDIA-max-width-1199.98-END-======================*/
-
-
-
 
 }
 
@@ -325,10 +286,6 @@
 
     /*========================-HEADER-MEDIA-max-width-991.98-END-========================*/
     /*=====================-MAIN-SLIDER-MEDIA-max-width-991.98-START-=====================*/
-    .main-slider__section {
-        padding: 40px 0 50px;
-    }
-
     .products-info__main {
         width: calc(100% - 400px);
 
@@ -424,7 +381,7 @@
     /*======================-ATTENTION-MEDIA-max-width-991.98-END-======================*/
     /*====================-ADVANTAGES-MEDIA-max-width-991.98-START-=====================*/
     .advantages-block {
-        margin-top: 70px;
+        margin-top: 60px;
     }
 
     .section-title {
@@ -432,7 +389,7 @@
     }
 
     .advantages-list {
-        margin-top: 109px;
+        margin-top: 70px;
         padding: 40px 22px 59px;
     }
 
@@ -485,9 +442,6 @@
 
     /*======================-CHARACTERS-MEDIA-max-width-991.98-END-======================*/
     /*=====================-PRICE-MEDIA-max-width-991.98-START-=====================*/
-    .price-section {
-        padding: 50px 0 90px;
-    }
 
     .cost-delivery__table {
         flex-wrap: wrap;
@@ -527,18 +481,13 @@
         font-size: 16px;
     }
 
-    .why-to__order {
-        margin: 90px 0 0;
-    }
-
-
     /*===================-WHY-TO-ORDER-MEDIA-max-width-991.98-END-====================*/
     /*=====================-JOURNAL-MEDIA-max-width-991.98-START-=====================*/
 
     /*======================-JOURNAL-MEDIA-max-width-991.98-END-======================*/
     /*=====================-SHIPMENT-MEDIA-max-width-991.98-START-=====================*/
     .shipment-block {
-        margin-top: 90px;
+        margin-top: 70px;
     }
 
     .shipment-details .characters-main__info table tr td {
@@ -567,7 +516,7 @@
     /*======================-SHIPMENT-MEDIA-max-width-991.98-END-======================*/
     /*=====================-TERMOMETR-MEDIA-max-width-991.98-START-=====================*/
     .termometr-video__block {
-        margin-top: 90px;
+        margin-top: 70px;
     }
 
     .single-video__block {
@@ -589,11 +538,11 @@
     /*======================-TERMOMETR-MEDIA-max-width-991.98-END-======================*/
     /*=====================-QUESTIONS-MEDIA-max-width-991.98-START-=====================*/
     .questions-block {
-        margin-top: 90px;
+        margin-top: 60px;
     }
 
     .questions-block .section-title {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
 
     .questions-title p {
@@ -613,14 +562,19 @@
         margin-bottom: 15px;
     }
 
+    .questions-title {
+        padding-bottom: 15px;
 
+    }
 
     /*======================-QUESTIONS-MEDIA-max-width-991.98-END-======================*/
     /*=====================-FOOTER-MEDIA-max-width-991.98-START-=====================*/
     footer {
-        margin-top: 90px;
+        margin-top: 60px;
     }
-
+    .footer-info__block{
+        height: 530px;
+    }
     .footer-info {
         margin-bottom: 20px;
     }
@@ -643,8 +597,8 @@
         margin-bottom: 15px;
     }
 
-    .requisites-info p {
-        font-size: 12px;
+    .requisites-info ul li {
+        font-size: 14px;
     }
 
     .site-info p {
@@ -897,6 +851,10 @@
         margin-top: 40px;
     }
 
+    .photos-instagram {
+        margin-top: 5px;
+    }
+
     .photos-instagram p {
         font-size: 14px;
     }
@@ -973,10 +931,6 @@
         width: 100%;
     }
 
-    .footer-info {
-        margin-bottom: 35px;
-    }
-
     /*======================-FOOTER-MEDIA-max-width-767.98-END-======================*/
     .modal-content {
         max-width: 490px;
@@ -996,7 +950,7 @@
 @media (max-width: 575.98px) {
 
     /*=======================-HEADER-MEDIA-max-width-575.98-START-=======================*/
-    
+
 
     .container {
         padding: 0 10px;
